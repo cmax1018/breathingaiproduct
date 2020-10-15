@@ -1,38 +1,58 @@
+.navbar {
+  display: flex;
+  /background-color: red;
+  -ms-align-items: center;
+  align-items: center;
+  height: 100px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  padding-top: 120px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.placeholder {
+  width: 570px;
+  height: 415px;
+  background-color: blue;
+}
+.long-placeholder {
+  width: 570px;
+  height: 815px;
+  background-color: blue;
+}
+.text-panel {
+  padding: 25px;
+  flex: 1;
+}
+.image-panel {
+  flex: 1,
+}
+.longh1 {
+  font-size: 60px  ;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.goal {
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  margin: 10px;
+  font-weight: bold;
+  min-width:  150px;
+}
+.content {
+  margin-left: 4px;
+}
+.faq {
+  padding-top: 0;
+}
+.details > p {
+  margin: 3px;
+  font-size: 15px;
 }
