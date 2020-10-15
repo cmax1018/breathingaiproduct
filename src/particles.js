@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js'
 
 const MyParts = () => (<Particles
-  style={{position: 'fixed', top:0, width: "100%", zIndex:-1}}
+  style={{position: 'fixed', top:0, zIndex:-1, pointerEvents:'none'}}
   height="1000px"
   params={{
     fpsLimit: 60,
@@ -70,34 +70,6 @@ const MyParts = () => (<Particles
           enable: false,
           rotateX: 600,
           rotateY: 1200
-        }
-      }
-    },
-    interactivity: {
-      detect_on: "canvas",
-      events: {
-        onhover: {
-          enable: true,
-          mode: "repulse"
-        },
-        onclick: {
-          enable: true,
-          mode: "push"
-        },
-        resize: true
-      },
-      modes: {
-        grab: {
-          distance: 400,
-          line_linked: {
-            opacity: 0
-          }
-        },
-        repulse: {
-          distance: 100
-        },
-        push: {
-          quantity: 4
         }
       }
     },

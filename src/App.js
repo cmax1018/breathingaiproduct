@@ -8,7 +8,7 @@ function App() {
   }
 
   return (
-    <div className="App" style={{position: 'relative', zIndex:-1}}>
+    <div className="App" style={{position: 'relative', zIndex:1}}>
       <a href="https://breathing.ai" style={{textDecoration:'none'}}>
       <nav className="navbar">
         <img src={logo} alt="logo" className="logo" onClick={handleLogo}/>
