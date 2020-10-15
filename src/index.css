@@ -2,6 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e5e5;
 }
 
 p, h1, button, li, h3 {
@@ -20,7 +21,7 @@ p {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 button {
@@ -33,7 +34,8 @@ outline: none;
 }
 
 button:hover {
-  opacity: 90%;
+  opacity: 80%;
+  transform: scale(.99);
 }
 
 li {

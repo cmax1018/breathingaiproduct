@@ -2,12 +2,15 @@ import React from 'react';
 import logo from './image.png';
 import './App.css';
 
-
 function App() {
+  const handleLogo = () => {
+    window.scrollTo(0,0);
+  }
+
   return (
     <div className="App">
       <nav className="navbar">
-        <img src={logo} alt="logo" className="logo"/>
+        <img src={logo} alt="logo" className="logo" onClick={handleLogo}/>
         <div><h1 >breathing.AI</h1></div>
       </nav>
       <section className="section">
