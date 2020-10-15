@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       <nav className="navbar">
         <img src={logo} alt="logo" className="logo"/>
-        <h1>breathing.AI</h1>
+        <div><h1 >breathing.AI</h1></div>
       </nav>
       <section className="section">
         <div className="text-panel">
-          <h1>
+          <h1 id="breath">
             BREATHE BETTER.
           </h1>
           <p>Breathing.ai is the only application
