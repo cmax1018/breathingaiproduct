@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/breathingaiproduct/static/css/main.ce7b2312.chunk.css",
-    "main.js": "/breathingaiproduct/static/js/main.685ff262.chunk.js",
-    "main.js.map": "/breathingaiproduct/static/js/main.685ff262.chunk.js.map",
+    "main.js": "/breathingaiproduct/static/js/main.c5c36ff4.chunk.js",
+    "main.js.map": "/breathingaiproduct/static/js/main.c5c36ff4.chunk.js.map",
     "runtime-main.js": "/breathingaiproduct/static/js/runtime-main.43309425.js",
     "runtime-main.js.map": "/breathingaiproduct/static/js/runtime-main.43309425.js.map",
     "static/js/2.04cee281.chunk.js": "/breathingaiproduct/static/js/2.04cee281.chunk.js",
     "static/js/2.04cee281.chunk.js.map": "/breathingaiproduct/static/js/2.04cee281.chunk.js.map",
     "index.html": "/breathingaiproduct/index.html",
-    "precache-manifest.37556b9d333f7f4492f2141eeed41650.js": "/breathingaiproduct/precache-manifest.37556b9d333f7f4492f2141eeed41650.js",
+    "precache-manifest.457b4399d0458dd74cefe115bfe41ace.js": "/breathingaiproduct/precache-manifest.457b4399d0458dd74cefe115bfe41ace.js",
     "service-worker.js": "/breathingaiproduct/service-worker.js",
     "static/css/main.ce7b2312.chunk.css.map": "/breathingaiproduct/static/css/main.ce7b2312.chunk.css.map",
     "static/js/2.04cee281.chunk.js.LICENSE.txt": "/breathingaiproduct/static/js/2.04cee281.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.43309425.js",
     "static/js/2.04cee281.chunk.js",
     "static/css/main.ce7b2312.chunk.css",
-    "static/js/main.685ff262.chunk.js"
+    "static/js/main.c5c36ff4.chunk.js"
   ]
 }

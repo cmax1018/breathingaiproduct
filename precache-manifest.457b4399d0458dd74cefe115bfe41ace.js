@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1c701b4bc6c57ce27389606bd81c14c",
+    "revision": "fc2a2f7fc4e8a15b87af5f0233774824",
     "url": "/breathingaiproduct/index.html"
   },
   {
-    "revision": "a0c7a7f505fceb91098c",
+    "revision": "601345b517aac3b2fa03",
     "url": "/breathingaiproduct/static/css/main.ce7b2312.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breathingaiproduct/static/js/2.04cee281.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0c7a7f505fceb91098c",
-    "url": "/breathingaiproduct/static/js/main.685ff262.chunk.js"
+    "revision": "601345b517aac3b2fa03",
+    "url": "/breathingaiproduct/static/js/main.c5c36ff4.chunk.js"
   },
   {
     "revision": "249b1a265980a6d71e2c",
