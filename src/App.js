@@ -9,10 +9,12 @@ function App() {
 
   return (
     <div className="App">
+      <a href="https://breathing.ai" style={{textDecoration:'none'}}>
       <nav className="navbar">
         <img src={logo} alt="logo" className="logo" onClick={handleLogo}/>
         <div><h1 >breathing.AI</h1></div>
       </nav>
+      </a>
       <section className="section">
         <div className="text-panel">
           <h1 id="breath">
