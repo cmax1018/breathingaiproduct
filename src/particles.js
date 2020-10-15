@@ -1,115 +1,108 @@
-import * as part from 'particles.js'
-console.log('ping')
+import React from 'react'
+import Particles from 'react-particles-js'
 
-console.log(part)
-
-part.load("App", {
-  "particles": {
-    "number": {
-      "value": 355,
-      "density": {
-        "enable": true,
-        "value_area": 789.1476416322727
-      }
-    },
-    "color": {
-      "value": "#000000"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
+const MyParts = () => (<Particles
+  style={{position: 'fixed', top:0, width: "100%", zIndex:-1}}
+  height="1000px"
+  params={{
+    fpsLimit: 60,
+    emitters: {
+      direction: "random",
+      size: {
+        width: 50,
+        height: 50
       },
-      "polygon": {
-        "nb_sides": 5
+      position: {
+        x: 50,
+        y: 50
       },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+      rate: {
+        delay: 3,
+        quantity: 1
       }
     },
-    "opacity": {
-      "value": 0.48927153781200905,
-      "random": false,
-      "anim": {
-        "enable": true,
-        "speed": 0.2,
-        "opacity_min": 0,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 2,
-      "random": true,
-      "anim": {
-        "enable": true,
-        "speed": 2,
-        "size_min": 0,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 0.2,
-      "direction": "none",
-      "random": true,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "bubble"
+    particles: {
+      number: {
+        value: 2
       },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
+      color: {
+        value: [
+          "#3998D0",
+          "#2EB6AF",
+          "#A9BD33",
+          "#FEC73B",
+          "#F89930",
+          "#F45623",
+          "#D62E32",
+          "#EB586E",
+          "#9952CF"
+        ]
       },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
+      shape: {
+        type: "circle"
+      },
+      // opacity: {
+      //   value: .5,
+      //   random: {
+      //     enable: true,
+      //     minimumValue: 0.3
+      //   }
+      // },
+      size: {
+        value: 50,
+        anim: {
+          enable: true,
+          speed: 1,
+          size_min: 2,
+          sync: true,
+          startValue: "max",
+          destroy: "min"
         }
       },
-      "bubble": {
-        "distance": 83.91608391608392,
-        "size": 1,
-        "duration": 3,
-        "opacity": 1,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
+      move: {
+        enable: true,
+        speed: 5,
+        direction: "none",
+        random: false,
+        straight: false,
+        out_mode: "destroy",
+        attract: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 1200
+        }
       }
-    }
-  },
-  "retina_detect": true
-});
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: {
+          enable: true,
+          mode: "repulse"
+        },
+        onclick: {
+          enable: true,
+          mode: "push"
+        },
+        resize: true
+      },
+      modes: {
+        grab: {
+          distance: 400,
+          line_linked: {
+            opacity: 0
+          }
+        },
+        repulse: {
+          distance: 100
+        },
+        push: {
+          quantity: 4
+        }
+      }
+    },
+    detectRetina: true
+    }}
+   />
+)
+export default MyParts;

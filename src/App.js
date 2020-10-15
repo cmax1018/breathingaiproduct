@@ -1,14 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './image.png';
 import './App.css';
-
+import Particles from './particles'
 function App() {
   const handleLogo = () => {
     window.scrollTo(0,0);
   }
 
   return (
-    <div className="App">
+    <div className="App" style={{position: 'relative', zIndex:-1}}>
       <a href="https://breathing.ai" style={{textDecoration:'none'}}>
       <nav className="navbar">
         <img src={logo} alt="logo" className="logo" onClick={handleLogo}/>
@@ -34,7 +34,7 @@ function App() {
             </div>
         </div>
         <div className="image-panel">
-          <div className="placeholder"></div>
+          <div className="placeholder" id="part-test"></div>
         </div>
       </section>
       <section className="section">
@@ -148,6 +148,7 @@ function App() {
 
         <div></div>
       </section>
+      <Particles />
     </div>
   );
 }
